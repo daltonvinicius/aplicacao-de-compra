@@ -28,7 +28,7 @@ public class Main {
             var produto = new Produto(nome, valor);
             if (cartao.passarCartao(produto)) {
                 System.out.printf("""
-                        \nQuer adicionar fazer mais alguma compra?
+                        \nQuer fazer mais alguma compra?
                         (qualquer numero) - sim
                         0 - ir para o checklist
                         """);
